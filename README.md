@@ -22,7 +22,7 @@ ssh-keygen -t -rsa -b 4096 -C "yourgithubpassword"
 ## Para evaluar ssh agent
 eval "$(ssh-agent -s)"
 ## Para copiar id de llave public (NO NECESARIAMENTE HACERLO) PRIMERO LEER https://www.ssh.com/ssh/copy-id
-ssh-copy-id armystrategie@gmail.com
+# ssh-copy-id "useremail"
 ## go to directory where you have ssh key
 cd ~/.ssh
 
